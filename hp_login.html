@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>sm_homepage</title>
+        <title>sm_homepage_login</title>
         <link rel="stylesheet" href="css/homepage.css"/>
+        <link rel="stylesheet" href="css/hp_login.css"/>
     </head>
     <body>
         
@@ -12,18 +13,29 @@
                 <div class="c2">
                     <div class="r1"><span class="hghlgh">un</span>gineering</div>
                     <div class="r2">A <span class="hghlgh">bit</span> of knowledge is good, a <span class="hghlgh">byte</span> is better</div>
-                </div>        
+                </div>
+                
             </div>
             <div class="hbutton">
-                <button class="first">Log in</button>
-                <button class="second">New User</button>
+                <span class="dash_brd">My Dashboard</span>
+                <button class="first" >Logout</button>
             </div>
         </div>
         
         
-        
+       
+       
         <div class="status">
-            <div class="st_content">
+            <div class="st_content"> 
+                <div class="put_status">
+                    <div class="instr"> Write Something here</div>
+                    <div>
+                        <form method="post" action="status.php">
+                            <input class="space" name="status" type="text"/><br>
+                        </form>                        
+                    </div>
+                    <div><button class="smt">Post</button></div>
+                </div>  
                 <div class="row">
                     <div class="r_nm" >Name</div>
                     <div class="r_cnt">Hello,deletime atuy jksd jdfkad silinnd sljnsdns ksdsdndn sodncm KWJSHADA KHEJ hwdlsjldfc ljdfcsskfcs bb edjjhjjss jhjshhfshfdks hfjhjshfjdhfdjh
@@ -78,8 +90,4 @@
             </div>
         </div>
     </body>
-</html>            
-            
-            
-        
-            
+</html>        

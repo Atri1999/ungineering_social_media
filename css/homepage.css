@@ -7,19 +7,11 @@ body{
 .header{
     height:200px;
 }
-.sidespace{
-    width:8%;
-    height:100%;
-    float:left;
-}
-.header>.midspace{
-    width:39%;
-    height:100%;
-    float:left;
-}
 
        
 .logo{
+    margin-left:8%;
+    margin-right:39%;
     width:20%;
     height:100%;
     float:left;
@@ -28,6 +20,7 @@ body{
 }
 
 .imag{
+    float:right;
     width:100%;
     height:100%;
 }
@@ -47,6 +40,7 @@ body{
 .logo>.c2{
     float:left;
     height:100%;
+    width:80%;
 }
 .c2>.r1{
     height:60%;
@@ -62,6 +56,7 @@ body{
     height:100%;
     padding:70px 10px 60px 10px;
     float:left;
+    margin-right:8%;
 }
 button{
     width:42%;
@@ -112,13 +107,14 @@ button{
 } 
 
 .row{
+    margin-top:20px;
     border:solid #373737;
 }   
     
 .st_content>.row{
     background-color:#FFFFFF;
     padding:20px;
-    border:1px black solid;
+    border:1px #000000 solid;
     margin:0px 0px 15px;
 }
 .status::after{
@@ -129,7 +125,7 @@ button{
     
 .footer{
     height:250px;
-    padding:20px 10px;
+    padding:20px 0px;
     color:#F8F8F8;
     background-color:#373737;
 }
@@ -138,11 +134,7 @@ button{
     height:100%;
     float:left;
 }
-.footer>.midspace{
-    width:30%;
-    height:100%;
-    float:left;
-}
+
 img{
     width:45px;
     height:45px;
@@ -151,12 +143,13 @@ img{
 
 .div_1{
     font-size:25px;
-    padding-top:40px;
+    padding-top:48px;
     height:40%;
 }
 .div_2{
     font-size:30px;
     height:60%;
+    border:2px white ;
     
 }
 .col_1{
@@ -164,6 +157,17 @@ img{
 }
 .col_2{
     text-align:right;
+    padding-right:0px;
+}
+
+.fs_1{
+    margin-left:8%;
+    margin-right:15%;
+}
+.fs_2{
+    margin-right:4%;
+    margin-left:15%;
+    float:right;
 }
           
 
