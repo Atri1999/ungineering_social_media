@@ -1,6 +1,10 @@
 *{
     box-sizing:border-box;
-}    
+} 
+
+.header{
+    height:200px;
+}       
     
 
 .hbutton>.dash_brd{
@@ -9,8 +13,23 @@
     margin-right:40px;
     text-decoration:underline;
         
+}
+
+.aaaa{
+    color:#373737;
 } 
 
+.aaaa .r2{
+    padding-top:0px;
+}
+
+.aaaa .r1{
+    padding-bottom:0px;
+}
+.c2>.r2{
+    position:relative;
+    top:-5px;
+}    
 .put_status{
     padding:40px 0px 40px;
     margin-top:40px;
@@ -19,7 +38,7 @@
 
 .instr{
     font-weight:bold;
-    font-size:35px;
+    font-size:30px;
     color:#373737;
 }
 
