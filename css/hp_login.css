@@ -1,0 +1,40 @@
+*{
+    box-sizing:border-box;
+}    
+    
+
+.hbutton>.dash_brd{
+    color:#C9341C;
+    font-size:23px;
+    margin-right:40px;
+    text-decoration:underline;
+        
+} 
+
+.put_status{
+    padding:40px 0px 40px;
+    margin-top:40px;
+    margin-bottom:110px;
+} 
+
+.instr{
+    font-weight:bold;
+    font-size:35px;
+    color:#373737;
+}
+
+.space{
+    width:100%;
+    height:200px;
+    margin:20px 0px;
+    
+}
+.smt{
+    float:right;
+    width:15%;
+    font-size:23px;
+    background-color:#C9341C;
+    color:#FFFFFF;
+    border:solid 2px #C9341C;
+}
+         

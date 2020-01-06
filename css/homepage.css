@@ -1,0 +1,175 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+}
+.header{
+    height:200px;
+}
+
+       
+.logo{
+    margin-left:8%;
+    margin-right:39%;
+    width:20%;
+    height:100%;
+    float:left;
+    padding-top:60px;
+    padding-bottom:55px;
+}
+
+.imag{
+    float:right;
+    width:100%;
+    height:100%;
+}
+.logo>.c1{
+    float:left;
+    height:100%;
+    width:20%;
+    padding-bottom:5px;
+    padding-top:0px;
+    padding-left:5px;
+}
+
+.hghlgh{
+    color:#EB4038;
+}
+
+.logo>.c2{
+    float:left;
+    height:100%;
+    width:80%;
+}
+.c2>.r1{
+    height:60%;
+    font-size:47px;
+    font-weight:bold;
+} 
+.c2>.r2{
+    height:40%;
+    font-size:14px;
+}   
+.hbutton{
+    width:25%;
+    height:100%;
+    padding:70px 10px 60px 10px;
+    float:left;
+    margin-right:8%;
+}
+button{
+    width:42%;
+    height:50px;
+    display:inline-block;
+    font-size:23px;
+    margin:5px;
+}
+
+.hbutton>.first{
+    background-color:#FFFFFF;
+    color:#C9341C;
+    border:solid 2px #C9341C;
+}
+
+.hbutton>.second{
+    background-color:#C9341C;
+    color:#FFFFFF;
+    border:solid 2px #C9341C;
+}
+
+.status{
+    background-color:#F8F8F8;
+    padding-bottom:50px;
+}
+    
+
+.status>.st_content{
+    margin:0px 15%;
+    width:70%;
+    padding:0px 10px 20px;
+    float:left;
+}
+.r_nm,.r_cnt,.r_t{
+    padding:20px 50px 20px 50px;
+    font-size:30px;
+    color:#373737;
+    word-spacing:5px;
+    line-height:45px;
+}
+
+.r_nm{
+    font-weight:bold;
+}    
+
+.r_t{
+    text-align:right;
+} 
+
+.row{
+    margin-top:20px;
+    border:solid #373737;
+}   
+    
+.st_content>.row{
+    background-color:#FFFFFF;
+    padding:20px;
+    border:1px #000000 solid;
+    margin:0px 0px 15px;
+}
+.status::after{
+    content:"";
+    display:block;
+    clear:both;
+}    
+    
+.footer{
+    height:250px;
+    padding:20px 0px;
+    color:#F8F8F8;
+    background-color:#373737;
+}
+.footer>.col{
+    width:25%;
+    height:100%;
+    float:left;
+}
+
+img{
+    width:45px;
+    height:45px;
+    display:inline-block;
+}
+
+.div_1{
+    font-size:25px;
+    padding-top:48px;
+    height:40%;
+}
+.div_2{
+    font-size:30px;
+    height:60%;
+    border:2px white ;
+    
+}
+.col_1{
+    text-align:left;
+}
+.col_2{
+    text-align:right;
+    padding-right:0px;
+}
+
+.fs_1{
+    margin-left:8%;
+    margin-right:15%;
+}
+.fs_2{
+    margin-right:4%;
+    margin-left:15%;
+    float:right;
+}
+          
+
+
+        
