@@ -1,70 +1,65 @@
 *{
     box-sizing:border-box;
 }
+
 body{
-    margin:0px;
-}
+    font-family: 'Open Sans', sans-serif;
+}    
+
 .header{
     height:200px;
-}
-.sidespace{
-    width:8%;
-    height:100%;
-    float:left;
-}
-.header>.midspace{
-    width:39%;
-    height:100%;
-    float:left;
+    padding-left:153.6px;
+    padding-right:153.6px;
 }
 
        
 .logo{
-    width:20%;
     height:100%;
     float:left;
     padding-top:60px;
     padding-bottom:55px;
+    color:#373737;
 }
 
 .imag{
+    float:right;
     width:100%;
     height:100%;
 }
-.logo>.c1{
+.c1{
     float:left;
     height:100%;
-    width:20%;
-    padding-bottom:5px;
-    padding-top:0px;
-    padding-left:5px;
+    width:69px;
 }
 
 .hghlgh{
     color:#EB4038;
 }
 
-.logo>.c2{
+.c2{
     float:left;
     height:100%;
 }
 .c2>.r1{
+    padding-bottom:10px;
     height:60%;
-    font-size:47px;
+    font-size:44px;
     font-weight:bold;
 } 
 .c2>.r2{
+    padding-top:5px;
     height:40%;
     font-size:14px;
 }   
 .hbutton{
-    width:25%;
+    width:50%;
     height:100%;
-    padding:70px 10px 60px 10px;
-    float:left;
+    padding:70px 0px 60px ;
+    float:right;
+    text-align:right;
 }
 button{
-    width:42%;
+    width:180px;
     height:50px;
     display:inline-block;
     font-size:23px;
@@ -90,14 +85,12 @@ button{
     
 
 .status>.st_content{
-    margin:0px 15%;
-    width:70%;
-    padding:0px 10px 20px;
-    float:left;
+    width:1285px;
+    margin: auto;
 }
 .r_nm,.r_cnt,.r_t{
     padding:20px 50px 20px 50px;
-    font-size:30px;
+    font-size:25px;
     color:#373737;
     word-spacing:5px;
     line-height:45px;
@@ -112,13 +105,14 @@ button{
 } 
 
 .row{
+    margin-top:20px;
     border:solid #373737;
 }   
     
 .st_content>.row{
     background-color:#FFFFFF;
     padding:20px;
-    border:1px black solid;
+    border:1px #000000 solid;
     margin:0px 0px 15px;
 }
 .status::after{
@@ -129,20 +123,16 @@ button{
     
 .footer{
     height:250px;
-    padding:20px 10px;
+    padding:20px 153.6px;
     color:#F8F8F8;
     background-color:#373737;
 }
 .footer>.col{
-    width:25%;
+    width:50%;
     height:100%;
     float:left;
 }
-.footer>.midspace{
-    width:30%;
-    height:100%;
-    float:left;
-}
+
 img{
     width:45px;
     height:45px;
@@ -151,12 +141,13 @@ img{
 
 .div_1{
     font-size:25px;
-    padding-top:40px;
+    padding-top:48px;
     height:40%;
 }
 .div_2{
     font-size:30px;
     height:60%;
+    border:2px white ;
     
 }
 .col_1{
@@ -165,7 +156,8 @@ img{
 .col_2{
     text-align:right;
 }
-          
+
+        
 
 
         
