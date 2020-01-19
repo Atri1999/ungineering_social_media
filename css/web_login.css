@@ -80,9 +80,8 @@ form { margin-bottom: 0; }
 
 .knowledge{
     margin-top:0px;
-    font-weight: 10;
+    font-weight:5%;
     color: black;
-    font-family: "Open Sans",sans-serif;
 }
 
 .bit,.byte{
@@ -183,14 +182,8 @@ form { margin-bottom: 0; }
 .row5{
     /* border: solid 3px red;*/
      width: 100%;
-     height:170px;
+     height:100px;
      background:#F4F4F4;
-}
-
-.row5::after { 
-  content: "";
-  display: block; 
-  clear: both;
 }
 
 .eight{
@@ -221,14 +214,8 @@ form { margin-bottom: 0; }
 .row6{
     /* border: solid 3px red;*/
      width: 100%;
-     height: auto;
+     height:100px;
      background:#F4F4F4;
-}
-
-.row6::after { 
-  content: "";
-  display: block; 
-  clear: both;
 }
 
 .row6-1{
@@ -236,6 +223,7 @@ form { margin-bottom: 0; }
      width: 20%;
      height:94px;
      float: left;
+     
 }
 
 .row6-2{
@@ -243,6 +231,8 @@ form { margin-bottom: 0; }
      width: 60%;
      height:94px;
      float: left;
+     padding-top:55px;
+     
 }
 .row6-2-1{
     /* border: solid 3px red;*/
@@ -272,6 +262,7 @@ form { margin-bottom: 0; }
      width: 20%;
      height:94px;
      float: left;
+    
 }
 
 .row7{
@@ -293,7 +284,7 @@ form { margin-bottom: 0; }
      width: 60%;
      height:94px;
      float: left;
-     padding-top:22px;
+     padding-top:60px;
 }
 
 .row7-2-1{
@@ -328,23 +319,23 @@ form { margin-bottom: 0; }
 .row8{
     /* border: solid 3px red;*/
      width: 100%;
-     height:90px;
+     height:100px;
      background:#F4F4F4;
 }
 
 .row8-1{
     /* border: solid 3px red;*/
      width: 20%;
-     height:84px;
+     height:94px;
      float: left;
 }
 
 .row8-2{
     /* border: solid 3px red;*/
      width: 60%;
-     height:84px;
+     height:94px;
      float: left;
-     padding-top:22px;
+     padding-top:60px;
 }
 
 input[type=submit] {
@@ -381,7 +372,7 @@ input[type=submit] {
 .row8-3{
     /* border: solid 3px red;*/
      width: 20%;
-     height:84px;
+     height:94px;
      float: left;
 }
 .row9{
@@ -406,15 +397,11 @@ input[type=submit] {
      padding-top:8px;
 }
 
-.row9-3{
+.row8-3{
     /* border: solid 3px red;*/
      width: 20%;
      height:94px;
      float: left;
-}
-
-.new_user_login{
-    margin-top: 0px;
 }
 
 /*
@@ -428,7 +415,7 @@ input[type=submit] {
 .row10{
    /*  border: solid 3px red;*/
      width: 100%;
-     height:107px;
+     height:180px;
      background:#F4F4F4;
 }
 /*
