@@ -29,7 +29,7 @@
                     <?php
                     } else {
                     ?>
-                <a href="web_login.html" ><button class="first">Log in</button></a>
+                <a href="web_login.php" ><button class="first">Log in</button></a>
                 <a href="web_registration.php"><button class="second">New User</button></a>
                     <?php
                     }

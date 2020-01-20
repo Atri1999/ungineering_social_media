@@ -23,26 +23,14 @@
     while($row=mysqli_fetch_array($result)){
         if($row['email']==$email && $row['password']==$password){
             $flag=1;
-            echo"Hello"." ". $row['name'];
-            //setcookie("id",$row['id'],time()+3600);
-            //setcookie("name",$row['name'],time()+3600);
             $_SESSION['id']=$row['id'];
-            $_SESSION['name']=$row['name'];
-            ?>
-            <br/>
-            
-            <form action="hp_login.php" method="get">
-                <input type="hidden" name="name" value="<?php echo $row['name']?>"/>
-                <input type="submit" name="submit" value="click here"/>
-            </form>
-            <?php
+            header('Location:homepage.php');
             break;
         }
     }
     if($flag==0){
-        echo"Login unsuccessful";
+        header('Location:web_login.php');     
     }
-   // echo"Fetching problem.";
     mysqli_close($conn);
 ?>
 
