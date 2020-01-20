@@ -66,13 +66,13 @@ button{
     margin:5px;
 }
 
-.hbutton>.first{
+.first{
     background-color:#FFFFFF;
     color:#C9341C;
     border:solid 2px #C9341C;
 }
 
-.hbutton>.second{
+.second{
     background-color:#C9341C;
     color:#FFFFFF;
     border:solid 2px #C9341C;
