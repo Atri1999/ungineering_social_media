@@ -1,0 +1,576 @@
+*{
+     box-sizing: border-box;
+}
+
+form { margin-bottom: 0; }
+/*.row1{
+     /*border: solid 3px red;
+     width: 100%;
+     height:100px;
+}*/
+  
+.row2{
+     /*border: solid 3px red;*/
+     width: 100%;
+     height:100px;
+     margin-top:50px;
+}
+
+.one{
+    /* border: solid 3px red;*/
+     width:40%;
+     height:94px;
+     float: left;
+}
+
+.two{
+     /*border: solid 3px red;*/
+     width: 20%;
+     height:94px;
+     float: left;
+}
+
+.logoimg{
+ /*   border: solid 3px red;*/
+    width:20%;
+    height:88px;
+    margin-right:0px;
+    float: left;
+    background:#FEFEFE;
+}
+
+.logotext{
+    width:80%;
+    height:88px;
+   /* border: solid 3px red;*/
+    float: left;
+}
+
+.ungineering_logo{
+    height:82px;
+    width:100%;
+}
+
+.logo_text_container1{
+    width:100%;
+    height:41px;
+   /* border: solid 3px red;*/
+}
+
+.logo_text_container2{
+    width:100%;
+    height:41px;
+  /*  border: solid 3px red;*/
+}
+
+.text_ungineering{
+    margin-top:0px;
+    margin-bottom:10px;
+}
+
+.text_un{
+    color:red;
+    float: left;
+}
+
+.text_gineering{
+    color: black;
+    float: left;
+}
+
+.knowledge{
+    margin-top:0px;
+    font-weight: 10;
+    color: black;
+    font-family: "Open Sans",sans-serif;
+}
+
+.bit,.byte{
+    color:#EA5D63;
+}
+
+.three{
+    /* border: solid 3px red;*/
+     width: 40%;
+     height:94px;
+     float: left;
+}
+
+.three1{
+    /* border: solid 3px red;*/
+     width: 100%;
+     height:44px;
+}
+
+.three2{
+    /* border: solid 3px red;*/
+     width: 100%;
+     height:44px;
+}
+/*.row3{
+     /*border: solid 3px red;
+     width: 100%;
+     height:100px;
+}
+*/
+.maindiv{
+    /* border: solid 1px red;*/
+     width: 100%;
+     /*height:704px;*/
+     margin-top:50px;
+}
+
+/*
+.maindiv1{
+    /* border: solid 1px red;
+     width: 30%;
+     height:702px;
+     float: left;
+}
+*/
+
+.maindiv2{
+     border:1px solid rgb(200,200,200);;
+     width: 40%;
+   /*  height:702px;*/
+    /* float: left;*/
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.row4{
+     border: 1px solid rgb(200,200,200);;
+     width: 100%;
+     height:100px;
+    
+}
+
+.four{
+    /* border: solid 3px red;*/
+     width: 20%;
+     height:94px;
+     float: left;
+     
+}
+
+.five{
+    /* border: solid 3px red;*/
+     width: 30%;
+     height:94px;
+     float: left;
+     
+}
+
+.six{
+    /* border: solid 3px red;*/
+     width: 30%;
+     height:94px;
+     float: left;
+     
+}
+
+.sixhead{
+    margin-left:45px;
+}
+
+.seven{
+    /* border: solid 3px red;*/
+     width: 20%;
+     height:94px;
+     float: left;
+     
+}
+.row5{
+    /* border: solid 3px red;*/
+     width: 100%;
+     height:170px;
+     background:#F4F4F4;
+}
+
+.row5::after { 
+  content: "";
+  display: block; 
+  clear: both;
+}
+
+.eight{
+    /* border: solid 3px red;*/
+     width: 20%;
+     height:94px;
+     float: left;
+    
+}
+
+.nine{
+    /* border: solid 3px red;*/
+     width: 60%;
+     height:94px;
+     float: left;
+     padding-top:15px;
+     
+}
+
+.ten{
+    /* border: solid 3px red;*/
+     width: 20%;
+     height:94px;
+     float: left;
+     
+}     
+     
+.row6{
+    /* border: solid 3px red;*/
+     width: 100%;
+     height: auto;
+     background:#F4F4F4;
+}
+
+.row6::after { 
+  content: "";
+  display: block; 
+  clear: both;
+}
+
+.row6-1{
+    /* border: solid 3px red;*/
+     width: 20%;
+     height:94px;
+     float: left;
+}
+
+.row6-2{
+   /*  border: solid 3px red;*/
+     width: 60%;
+     height:94px;
+     float: left;
+}
+.row6-2-1{
+    /* border: solid 3px red;*/
+     width: 100%;
+     height:30px;
+}
+
+.email{
+    margin-top:5px;
+}
+
+.row6-2-2{
+   /*  border: solid 3px red;*/
+     width: 100%;
+     height:44px;
+     
+}
+
+.row6-2-2input{
+    margin-top:5px;
+    height:38px;
+    width:100%;
+}
+
+.row6-3{
+    /* border: solid 3px red;*/
+     width: 20%;
+     height:94px;
+     float: left;
+}
+
+.row7{
+    /* border: solid 3px red;*/
+     width: 100%;
+     height:100px;
+     background:#F4F4F4;
+}
+
+.row7-1{
+    /* border: solid 3px red;*/
+     width: 20%;
+     height:94px;
+     float: left;
+}
+
+.row7-2{
+    /* border: solid 3px red;*/
+     width: 60%;
+     height:94px;
+     float: left;
+     padding-top:22px;
+}
+
+.row7-2-1{
+    /* border: solid 3px red;*/
+     width: 100%;
+     height:30px;
+}
+
+.row7-2-2{
+   /*  border: solid 3px red;*/
+     width: 100%;
+     height:44px;
+}
+
+.password{
+    margin-top:5px;
+}
+
+.row7-2-2input{
+    margin-top:5px;
+    height:38px;
+    width:100%;
+}
+
+.row7-3{
+     /*border: solid 3px red;*/
+     width: 20%;
+     height:94px;
+     float: left;
+}
+
+.row8{
+    /* border: solid 3px red;*/
+     width: 100%;
+     height:90px;
+     background:#F4F4F4;
+}
+
+.row8-1{
+    /* border: solid 3px red;*/
+     width: 20%;
+     height:84px;
+     float: left;
+}
+
+.row8-2{
+    /* border: solid 3px red;*/
+     width: 60%;
+     height:84px;
+     float: left;
+     padding-top:22px;
+}
+
+input[type=submit] {
+  background-color: #f04c4e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:100%;
+  font-size:17px;
+}
+
+/*
+.row8-2-login{
+    /* border: solid 3px red;
+     width: 100%;
+     height:50px;
+     float: left;
+     background: red;
+     margin-top:10px;
+}
+
+.login{
+    color: white;
+    margin-left:40%;
+    height:30px;
+    margin-top:10px;
+    background: red;
+    width:20%;
+    border: red;
+}
+*/
+.row8-3{
+    /* border: solid 3px red;*/
+     width: 20%;
+     height:84px;
+     float: left;
+}
+.row9{
+    /* border: solid 3px red;*/
+     width: 100%;
+     height:100px;
+     background:#F4F4F4;
+}
+
+.row9-1{
+    /* border: solid 3px red;*/
+     width: 20%;
+     height:94px;
+     float: left;
+}
+
+.row9-2{
+    /* border: solid 3px red;*/
+     width: 60%;
+     height:94px;
+     float: left;
+     padding-top:8px;
+}
+
+.row9-3{
+    /* border: solid 3px red;*/
+     width: 20%;
+     height:94px;
+     float: left;
+}
+
+.new_user_login{
+    margin-top: 0px;
+}
+
+/*
+.new_user_login{
+    margin-left:20%;
+    margin-top: 0px;
+    padding-top:10px;
+}
+*/
+
+.row10{
+   /*  border: solid 3px red;*/
+     width: 100%;
+     height:107px;
+     background:#F4F4F4;
+}
+/*
+.maindiv3{
+    /* border: solid 1px red;
+     width: 30%;
+     height:702px;
+     float: left;
+}
+*/
+.row11{
+   /*  border: solid 3px black;*/
+     width: 100%;
+     height:200px;
+     background: #373737;
+}
+
+.row11-1{
+    /* border: solid 3px black;*/
+     width: 10%;
+     height:194px;
+     float: left;
+}
+
+.row11-2{
+    /* border: solid 3px black;*/
+     width: 20%;
+     height:194px;
+     float: left;
+}
+
+.row11-3{
+    /* border: solid 3px black;*/
+     width: 40%;
+     height:194px;
+     float: left;
+}
+
+.row11-2-1{
+   /* border: solid 3px black;*/
+     width: 100%;
+    /* height:94px;*/
+    height:50%;
+    margin-top:0px;
+}
+
+.row11-2-1-connect{
+    margin-top:50px;
+}
+.row11-2-1-connect{
+     margin-left:1px;
+   /*  margin-top: 50px;*/
+     color: white;
+   /*  margin-top:0px;*/
+     margin-bottom:0px;
+     font-family: "Open Sans",sans-serif;
+}
+
+.row11-2-2{
+  /*  border: solid 3px black;*/
+     width: 100%;
+    /* height:94px;*/
+    height:50%;
+    margin-top:-60px;
+}
+
+.row11-2-2 a div{
+    margin:0px 10px;
+    width:40px;
+    height:40px;
+    text-align: center;
+    line-height:40px;
+    border-radius:50%;
+    
+}
+
+div.fa-facebook{
+    background:#3B5AA0;
+    color: white;
+}
+
+div.fa-youtube-play{
+    background:#E1422E;
+    color:#f7f7f7;
+}
+
+.row11-4{
+    /* border: solid 3px black;*/
+     width: 20%;
+     height:194px;
+     float: left;
+}
+
+.row11-4-1{
+   /* border: solid 3px black;*/
+     width: 100%;
+     height:94px;
+}
+
+.row11-4-1-questions{
+    margin-top:50px;
+}
+
+.row11-4-2-questions{
+    margin-top:-80px;
+}
+
+.questions{
+    color:white;
+}
+
+.queries{
+    color:white;
+    font-size:150%;
+}
+/*.questions{
+     margin-left:1px;
+     margin-top: 65px;
+     color: white;
+     margin-bottom:0px;
+}
+
+
+.queries{
+     margin-left:1px;
+     margin-top: 2px;
+     color: white;
+}
+*/
+
+.row11-4-2{
+    /* border: solid 3px black;*/
+     width: 100%;
+     height:94px;
+}
+
+.row11-5{
+     /*border: solid 3px black;*/
+     width: 10%;
+     height:194px;
+     float: left;
+}
+
+
+
