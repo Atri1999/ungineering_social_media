@@ -82,6 +82,7 @@ form { margin-bottom: 0; }
     margin-top:0px;
     font-weight:5%;
     color: black;
+    font-family: "Open Sans",sans-serif;
 }
 
 .bit,.byte{
@@ -182,8 +183,14 @@ form { margin-bottom: 0; }
 .row5{
     /* border: solid 3px red;*/
      width: 100%;
-     height:100px;
+     height:170px;
      background:#F4F4F4;
+}
+
+.row5::after { 
+  content: "";
+  display: block; 
+  clear: both;
 }
 
 .eight{
@@ -216,6 +223,12 @@ form { margin-bottom: 0; }
      width: 100%;
      height:100px;
      background:#F4F4F4;
+}
+
+.row6::after { 
+  content: "";
+  display: block; 
+  clear: both;
 }
 
 .row6-1{
@@ -284,7 +297,7 @@ form { margin-bottom: 0; }
      width: 60%;
      height:94px;
      float: left;
-     padding-top:60px;
+     padding-top:22px;
 }
 
 .row7-2-1{
@@ -319,23 +332,23 @@ form { margin-bottom: 0; }
 .row8{
     /* border: solid 3px red;*/
      width: 100%;
-     height:100px;
+     height:90px;
      background:#F4F4F4;
 }
 
 .row8-1{
     /* border: solid 3px red;*/
      width: 20%;
-     height:94px;
+     height:84px;
      float: left;
 }
 
 .row8-2{
     /* border: solid 3px red;*/
      width: 60%;
-     height:94px;
+     height:84px;
      float: left;
-     padding-top:60px;
+     padding-top:22px;
 }
 
 input[type=submit] {
@@ -372,7 +385,7 @@ input[type=submit] {
 .row8-3{
     /* border: solid 3px red;*/
      width: 20%;
-     height:94px;
+     height:84px;
      float: left;
 }
 .row9{
@@ -397,11 +410,15 @@ input[type=submit] {
      padding-top:8px;
 }
 
-.row8-3{
+.row9-3{
     /* border: solid 3px red;*/
      width: 20%;
      height:94px;
      float: left;
+}
+
+.new_user_login{
+    margin-top: 0px;
 }
 
 /*
@@ -415,7 +432,7 @@ input[type=submit] {
 .row10{
    /*  border: solid 3px red;*/
      width: 100%;
-     height:180px;
+     height:107px;
      background:#F4F4F4;
 }
 /*
