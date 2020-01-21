@@ -54,6 +54,10 @@
                     <div class="nine"><h1>Login into ungineering<br/> account</h1></div>
                     <div class="ten"></div>
                 </div>
+<<<<<<< HEAD
+=======
+                
+>>>>>>> b5fd70c28b9f931a88176046ac0a717bc7326b90
                 <form method="post" action="login_submit.php">
                     <div class="row6"> 
                         <!--<div class="row6-1"> </div>-->
@@ -84,6 +88,7 @@
                 
                         <!--<div class="row8-3"></div>-->
                     </div>
+                 </form>
              
                     <div class="row9">
                          <div class="row9-1"> </div>
@@ -94,12 +99,8 @@
                         <div class="row9-3"></div>
                         
                     </div>
-                    <div class="row10"> 
-                    </div>
-                </form>
-            </div>
+                    <div class="row10"> </div>
           
-        </div>
         <div class="row11"> 
             <div class="row11-1"> 
                 <div class="row11-1-1"> 

@@ -7,7 +7,7 @@
 }       
     
 
-.hbutton>.dash_brd{
+.hbutton .dash_brd{
     color:#C9341C;
     font-size:23px;
     margin-right:40px;
@@ -43,6 +43,7 @@
 }
 
 .space{
+    font-size:large;
     width:100%;
     height:200px;
     margin:20px 0px;
@@ -50,10 +51,13 @@
 }
 .smt{
     float:right;
-    width:15%;
-    font-size:23px;
     background-color:#C9341C;
     color:#FFFFFF;
     border:solid 2px #C9341C;
+    width:180px;
+    height:50px;
+    display:inline-block;
+    font-size:23px;
+    margin:5px;
 }
          
