@@ -80,7 +80,7 @@ form { margin-bottom: 0; }
 
 .knowledge{
     margin-top:0px;
-    font-weight:5%;
+    font-weight: 10;
     color: black;
     font-family: "Open Sans",sans-serif;
 }
@@ -221,7 +221,7 @@ form { margin-bottom: 0; }
 .row6{
     /* border: solid 3px red;*/
      width: 100%;
-     height:100px;
+     height: auto;
      background:#F4F4F4;
 }
 
@@ -241,11 +241,11 @@ form { margin-bottom: 0; }
 
 .row6-2{
    /*  border: solid 3px red;*/
-     width: 60%;
+     width: 80%;
      height:94px;
      float: left;
-     padding-top:55px;
-     
+     padding-left:20%;
+     /*padding-right:20%;*/
 }
 .row6-2-1{
     /* border: solid 3px red;*/
@@ -294,10 +294,11 @@ form { margin-bottom: 0; }
 
 .row7-2{
     /* border: solid 3px red;*/
-     width: 60%;
+     width: 80%;
      height:94px;
      float: left;
-     padding-top:22px;
+     padding-top:15px;
+     padding-left:20%;
 }
 
 .row7-2-1{
@@ -345,10 +346,11 @@ form { margin-bottom: 0; }
 
 .row8-2{
     /* border: solid 3px red;*/
-     width: 60%;
+     width: 80%;
      height:84px;
      float: left;
      padding-top:22px;
+     padding-left:20%;
 }
 
 input[type=submit] {
@@ -452,7 +454,7 @@ input[type=submit] {
 
 .row11-1{
     /* border: solid 3px black;*/
-     width: 10%;
+     width: 50%;
      height:194px;
      float: left;
 }
@@ -462,27 +464,29 @@ input[type=submit] {
      width: 20%;
      height:194px;
      float: left;
+     /*padding-left:10%;*/
 }
 
 .row11-3{
     /* border: solid 3px black;*/
-     width: 40%;
+     width: 50%;
      height:194px;
      float: left;
 }
 
-.row11-2-1{
+.row11-1-1{
    /* border: solid 3px black;*/
      width: 100%;
     /* height:94px;*/
     height:50%;
     margin-top:0px;
+    padding-left:15%;
 }
 
-.row11-2-1-connect{
+.row11-1-1-connect{
     margin-top:50px;
 }
-.row11-2-1-connect{
+.row11-1-1-connect{
      margin-left:1px;
    /*  margin-top: 50px;*/
      color: white;
@@ -491,15 +495,16 @@ input[type=submit] {
      font-family: "Open Sans",sans-serif;
 }
 
-.row11-2-2{
+.row11-1-2{
   /*  border: solid 3px black;*/
      width: 100%;
     /* height:94px;*/
     height:50%;
     margin-top:-60px;
+    padding-left:15%;
 }
 
-.row11-2-2 a div{
+.row11-1-2 a div{
     margin:0px 10px;
     width:40px;
     height:40px;
@@ -523,21 +528,25 @@ div.fa-youtube-play{
     /* border: solid 3px black;*/
      width: 20%;
      height:194px;
-     float: left;
+     float: right;
+     padding-right:40%;
 }
 
 .row11-4-1{
    /* border: solid 3px black;*/
      width: 100%;
-     height:94px;
+     height:50%;
+     
 }
 
 .row11-4-1-questions{
     margin-top:50px;
+    padding-left:35%;
 }
 
 .row11-4-2-questions{
     margin-top:-80px;
+    padding-left:35%;
 }
 
 .questions{
@@ -566,7 +575,8 @@ div.fa-youtube-play{
 .row11-4-2{
     /* border: solid 3px black;*/
      width: 100%;
-     height:94px;
+     height:50%;
+     
 }
 
 .row11-5{

@@ -54,35 +54,35 @@
                     <div class="nine"><h1>Login into ungineering<br/> account</h1></div>
                     <div class="ten"></div>
                 </div>
-                <form method="post" action="hp_login.php">
+                <form method="post" action="login_submit.php">
                     <div class="row6"> 
-                        <div class="row6-1"> </div>
+                        <!--<div class="row6-1"> </div>-->
                         <div class="row6-2">
                             <div class="row6-2-1"><h2 class="email">Email</h2></div>
                             <div class="row6-2-2">
                                 <input class="row6-2-2input" style="border: solid 1px red;" type="text" name="email"/>
                             </div>
                         </div>
-                        <div class="row6-3"></div>
+                        <!--<div class="row6-3"></div>-->
             
                     </div> 
                     <div class="row7"> 
-                        <div class="row7-1"> </div>
+                        <!--<div class="row7-1"> </div>-->
                         <div class="row7-2"> 
                             <div class="row7-2-1"><h2 class="password">Password</h2></div>
                             <div class="row7-2-2">
                                 <input class="row7-2-2input" style="border: solid 1px red;" type="password" name="password"/>
                             </div>
                         </div>
-                        <div class="row7-3"></div>
+                        <!--<div class="row7-3"></div>-->
                     </div>
                     <div class="row8"> 
-                        <div class="row8-1"> </div>
+                        <!--<div class="row8-1"> </div>-->
                         <div class="row8-2">
                             <input type="submit" value="Log-in">
                         </div>
                 
-                        <div class="row8-3"></div>
+                        <!--<div class="row8-3"></div>-->
                     </div>
              
                     <div class="row9">
@@ -101,18 +101,16 @@
           
         </div>
         <div class="row11"> 
-            <div class="row11-1"> </div>
-            <div class="row11-2">
-                <div class="row11-2-1"> 
-                    <div class="row11-2-1-connect">Connect with us at</div>
+            <div class="row11-1"> 
+                <div class="row11-1-1"> 
+                    <div class="row11-1-1-connect">Connect with us at</div>
                 </div>
-                <div class="row11-2-2">
+                <div class="row11-1-2">
                     <a href="https://www.youtube.com/"><div class="fa fa-youtube-play icon"></div></a>
                     <a href="https://www.facebook.com/"><div class="fa fa-facebook icon"></div> </a>
                 </div>
             </div>
-            <div class="row11-3"> </div>
-            <div class="row11-4">
+            <div class="row11-3"> 
                 <div class="row11-4-1"> 
                     <div class="row11-4-1-questions"><p class="questions">For any questions/doubts,write us at-</p></div>
                 </div>
@@ -120,7 +118,7 @@
                     <div class="row11-4-2-questions"><p class="queries">queries@ungineering.com</p></div>
                 </div>
             </div>
-            <div class="row11-5"> </div>
+            
         </div>
     </body>
 </html>
