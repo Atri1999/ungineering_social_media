@@ -7,7 +7,7 @@
 }       
     
 
-.hbutton>.dash_brd{
+.hbutton .dash_brd{
     color:#C9341C;
     font-size:23px;
     margin-right:40px;
@@ -43,6 +43,7 @@
 }
 
 .space{
+    font-size:large;
     width:100%;
     height:200px;
     margin:20px 0px;

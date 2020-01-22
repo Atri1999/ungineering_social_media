@@ -31,6 +31,5 @@
     if($flag==0){
         header('Location:web_login.php');     
     }
-    mysqli_close($conn);
 ?>
 

@@ -24,8 +24,8 @@
                     session_start();
                     if(isset($_SESSION['id']) && $_SESSION['id']){
                     ?>
-                <span class="dash_brd">My Dashboard</span>
-                <button class="first" >Logout</button>
+                <a href="web_myprofile.html"><span class="dash_brd">My Dashboard</span></a>
+                <a href="logout.php"><button class="first" >Logout</button></a>
                     <?php
                     } else {
                     ?>
@@ -41,7 +41,7 @@
         
         <div class="status">
             <div class="st_content">
-            <?php
+                <?php
                 session_start();
                 if(isset($_SESSION['id']) && $_SESSION['id']){
                 ?>
@@ -58,41 +58,38 @@
                 <?php
                 }
                 ?> 
+                <?php
+                    $hostname="127.0.0.1";
+                    $username="root";
+                    $db_password="123456";
+                    $db_name="social_media";
+                    
+                    $conn=mysqli_connect($hostname,$username,$db_password,$db_name);
+                    if(!$conn){
+                        die("connection failed: ". mysqli_connect_error());
+                    }
+                    
+                    $sql="SELECT users.name,statuses.date_,statuses.time,statuses.status FROM statuses INNER JOIN users ON statuses.user_id = users.id ORDER BY statuses.id DESC;";
+                    
+                    $result = mysqli_query($conn, $sql);
+                    if (!$result) {
+                        die("Error: " . $sql . "<br>" . mysqli_error($conn));
+                    }
+                    
+                    while ($row=mysqli_fetch_array($result)){
+                    ?>
+
                 <div class="row">
-                    <div class="r_nm" >Name</div>
-                    <div class="r_cnt">Hello,deletime atuy jksd jdfkad silinnd sljnsdns ksdsdndn sodncm KWJSHADA KHEJ hwdlsjldfc ljdfcsskfcs bb edjjhjjss jhjshhfshfdks hfjhjshfjdhfdjh
-                    ddhlahdaj jhddjsjfhdsjfb  jdfdnf sfsdj dsjhdfncnsfdscn vhf hgudhf hdasdhaj dadhxbjshd jdha hjdhfjsfhdj jhjhdjxfs jfhjshfsj higHSDAJDA JJJDX JJjdfijdsfs
+                    <div class="r_nm" ><?php echo $row['name']; ?></div>
+                    <div class="r_cnt"><?php echo $row['status']; ?>
                     </div>
-                    <div class="r_t">Time:Date</div>
+                    <div class="r_t"><?php echo $row['time'];?>|<?php echo $row['date_'];?></div>
                 </div>
-                <div class="row">
-                    <div class="r_nm" >Name</div>
-                    <div class="r_cnt">Hello,deletime atuy jksd jdfkad silinnd sljnsdns ksdsdndn sodncm KWJSHADA KHEJ hwdlsjldfc ljdfcsskfcs bb edjjhjjss jhjshhfshfdks hfjhjshfjdhfdjh
-                    ddhlahdaj jhddjsjfhdsjfb  jdfdnf sfsdj dsjhdfncnsfdscn vhf hgudhf hdasdhaj dadhxbjshd jdha hjdhfjsfhdj jhjhdjxfs jfhjshfsj higHSDAJDA JJJDX JJjdfijdsfs 
-                    </div>
-                    <div class="r_t">Time:Date</div>
-                </div>
-                <div class="row">
-                    <div class="r_nm" >Name</div>
-                    <div class="r_cnt">Hello,deletime atuy jksd jdfkad silinnd sljnsdns ksdsdndn sodncm KWJSHADA KHEJ hwdlsjldfc ljdfcsskfcs bb edjjhjjss jhjshhfshfdks hfjhjshfjdhfdjh
-                    ddhlahdaj jhddjsjfhdsjfb  jdfdnf sfsdj dsjhdfncnsfdscn vhf hgudhf hdasdhaj dadhxbjshd jdha hjdhfjsfhdj jhjhdjxfs jfhjshfsj higHSDAJDA JJJDX JJjdfijdsfs
-                    </div>
-                    <div class="r_t">Time:Date</div>
-                </div>
-                <div class="row">
-                    <div class="r_nm" >Name</div>
-                    <div class="r_cnt">Hello,deletime atuy jksd jdfkad silinnd sljnsdns ksdsdndn sodncm KWJSHADA KHEJ hwdlsjldfc ljdfcsskfcs bb edjjhjjss jhjshhfshfdks hfjhjshfjdhfdjh
-                    ddhlahdaj jhddjsjfhdsjfb  jdfdnf sfsdj dsjhdfncnsfdscn vhf hgudhf hdasdhaj dadhxbjshd jdha hjdhfjsfhdj jhjhdjxfs jfhjshfsj higHSDAJDA JJJDX JJjdfijdsfs 
-                    </div>
-                    <div class="r_t">Time:Date</div>
-                </div>
-                <div class="row">
-                    <div class="r_nm" >Name</div>
-                    <div class="r_cnt">Hello,deletime atuy jksd jdfkad silinnd sljnsdns ksdsdndn sodncm KWJSHADA KHEJ hwdlsjldfc ljdfcsskfcs bb edjjhjjss jhjshhfshfdks hfjhjshfjdhfdjh
-                    ddhlahdaj jhddjsjfhdsjfb  jdfdnf sfsdj dsjhdfncnsfdscn vhf hgudhf hdasdhaj dadhxbjshd jdha hjdhfjsfhdj jhjhdjxfs jfhjshfsj higHSDAJDA JJJDX JJjdfijdsfs 
-                    </div>
-                    <div class="r_t">Time:Date</div>
-                </div>                
+                <?php 
+                    }
+                    mysqli_close($conn);
+                    ?>
+                
             </div>
         </div>
         
