@@ -3,6 +3,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+
 }
 .row1{
     width: 100%;
@@ -194,14 +195,13 @@ body{
 }
 .r2_c4_rw1{
     width: 100%;
-    height: 42%;
     border: solid 1px #7c7c7c ;
+    margin-bottom:50px;
 
     
 }
 .r2_c4_rr1{
     width: 100%;
-    height: 80%;
     background-color:rgb(255,255,255);
 
     
@@ -210,7 +210,6 @@ body{
 
 .r2_c4_cc2{
     width: 80%;
-    height: 100%;
     margin: auto;
     font-size:27px;
     padding-top:80px;
@@ -225,52 +224,10 @@ body{
     background-color:rgb(255,255,255);
     font-size:27px;
     color:rgb(97,96,97);
-    padding-left:500px;
+    padding-left:430px;
     padding-top: 30px;
 }
-.r2_c4_rw2{
-    width: 100%;
-    height: 5%;
-    
-    
-    
-}
-.r2_c4_rw3{
-    width: 100%;
-    height: 42%;
-    border: solid 1px #7c7c7c;
 
-    
-    
-}
-.r2_c4_rr3{
-    width: 100%;
-    height: 80%;
-    background-color:rgb(255,255,255);
-   
-    
-}
-
-.r2_c4_cc5{
-    width: 80%;
-    height: 100%;
-    font-size:27px;
-    padding-top:80px;
-    color:rgb(97,96,97);
-    margin : auto;
-}
-
-
-.r2_c4_rr4{
-    width: 100%;
-    height: 20%;
-    background-color:rgb(255,255,255);
-    font-size:27px;
-    color:rgb(97,96,97);
-    padding-left:500px;
-    padding-top: 20px;
-    
-}
 
 
 

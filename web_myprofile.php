@@ -59,31 +59,40 @@
                 </div>
             </div>
             <div class= "c4">
+            <?php
+                session_start();
+                $hostname = "127.0.0.1";
+                $username = "root";
+                $db_password = "123456";
+                $db_name = "social_media";
+                $conn = mysqli_connect($hostname,$username,$db_password,$db_name);
+                if(!$conn){
+                    die("connection failed: ". mysqli_connect_error());
+                }
+                $user_id=$_SESSION['id'];
+                $sql="SELECT * FROM statuses WHERE user_id=$user_id ORDER BY id DESC";
+
+                $result = mysqli_query($conn, $sql);
+                if (!$result) {
+                    die("Error: " . $sql . "<br>" . mysqli_error($conn));
+                }
+                ?>
+            <?php
+                while($row=mysqli_fetch_array($result))
+                {?>
                 <div class= "r2_c4_rw1">
                     <div class= "r2_c4_rr1">
                        
                         <div class= "r2_c4_cc2">
-                            The social network is distributed across various computer networks. The social networks are inherently computer networks, linking people, organization, and knowledge. Social networking services vary in format and the number of features. They can incorporate a range of new information and communication tools, operating on desktops  
+            <?php                 echo $row['status'];?>
                         </div>
                        
                     </div>
                     <div class= "r2_c4_rr2">
-                        <i>Time:24:40 Hrs IST |26 Dec</i>
+                        <i>Time:<?php echo $row['time']; ?>Hrs IST |<?php echo $row['date_'];?></i>
                     </div>
                 </div>
-                <div class= "r2_c4_rw2"></div>
-                <div class= "r2_c4_rw3">
-                     <div class= "r2_c4_rr3">
-                       
-                        <div class= "r2_c4_cc5">
-                            Social networking sites allow users to share ideas, digital photos and videos, posts, and to inform others about online or real-world activities and events with people in their network. While in-person social networking – such as gathering in a village market to talk about events – has existed since the earliest development of towns,  
-                        </div>
-                 
-                     </div>
-                     <div class= "r2_c4_rr4">
-                         <i>Time:24:40 Hrs IST |26 Dec</i>
-                     </div>
-                </div>
+          <?php }?>
             </div>
         </div>
         
@@ -104,6 +113,11 @@
                     </div>
                 </div>
             </div>
+            <?php
+               
+                mysqli_close($conn);
+             ?>
+
             <div class= "c7">
                  <div class= "r3_c7_clm1">
                     <div class= "r3_c7_rw1">
