@@ -19,9 +19,9 @@
     if (!$result) {
         die("Error: " . $sql . "<br>" . mysqli_error($conn));
     }
-    echo "Profile update";
+    echo "Profile update" ."<br/>";
     ?>
-        <a href ="update.php"> click here </a> to continue.
+        <a href ="web_editprofile.php"> click here </a> to continue.
         <?php
         
               

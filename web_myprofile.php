@@ -27,14 +27,14 @@
                     <div class= "r1_c2_cc1">
                         <div class= "r1_c2_rw1"></div>
                         <div class= "r1_c2_rw2">
-                            <b><u> My</u> Dashboard</b>
+                            <a href = "web_myprofile.php"><b><u> My</u> Dashboard</b></a>
                         </div>
                         <div class= "r1_c2_rw3"></div>
                     </div>
                     <div class= "r1_c2_cc2">
                         <div class= "r1_c2_rr1"></div>
                         <div class= "r1_c2_rr2">
-                            <div class= "log"><b>Logout</b></div>
+                            <div class= "log"><a href = "logout.php"><b>Logout</b></a></div>
                         </div>
                         <div class= "r1_c2_rr3"></div>
                     </div>
@@ -53,7 +53,7 @@
                         </div>
                         
                         <div class= "r2_c3_rw3">
-                            <u> Edit Profile</u>
+                            <a href = "web_editprofile.php"><u> Edit Profile</u></a>
                         </div>
                     </div>
                 </div>
@@ -105,10 +105,10 @@
                     </div>
                     <div class= "r3_c6_rw2">
                         <div class= "r3_c6_cc1">
-                            <img class="logo_img1" src= "img/you.png"/>
+                           <a href = "www.youtube.com"><img class="logo_img1" src= "img/you.png"/></a>
                         </div>
                         <div class= "r3_c6_cc2">
-                            <img class= "logo_img2" src= "img/fb2.png"/>
+                            <a href = "www.facebook.com"><img class= "logo_img2" src= "img/fb2.png"/></a>
                         </div>
                     </div>
                 </div>

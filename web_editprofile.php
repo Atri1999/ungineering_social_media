@@ -27,7 +27,7 @@
                     <div class= "r1_c2_cc1">
                         <div class= "r1_c2_rw1"></div>
                         <div class= "r1_c2_rw2">
-                            <b><u> My</u> Dashboard</b>
+                            <a href = "wed_myprofile.php"><b><u> My</u> Dashboard</b></a>
                         </div>
                         <div class= "r1_c2_rw3"></div>
                     </div>
@@ -52,7 +52,7 @@
                 <div class= "r3_c7_rw1">
                     <div class= "r3_c7_clm2">
                         <div class= "r3_c7_rr1">
-                                <u> Profile </u>
+                                <a href = "web_myprofile.php"><u> Profile </u></a>
                         </div>
                         <div class= "r3_c7_rr3">
                             <b><u> Edit</u> Profile</b> 
@@ -125,10 +125,10 @@
                     </div>
                     <div class= "r4_c6_rw2">
                         <div class= "r4_c6_cc1">
-                            <img class="logo_img1" src= "img/you.png"/>
+                            <a href = "www.youtube.com"><img class="logo_img1" src= "img/you.png"/></a>
                         </div>
                         <div class= "r4_c6_cc2">
-                            <img class= "logo_img2" src= "img/fb2.png"/>
+                            <a href = "www.facebook.com"><img class= "logo_img2" src= "img/fb2.png"/></a>
                         </div>
                     </div>
                 </div>
