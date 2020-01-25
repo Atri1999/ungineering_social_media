@@ -1,4 +1,26 @@
 $(document).ready(function(){
+    $('.second').mouseenter(function(){
+        $(this).css('background-color','#ff0000');
+    }); 
+    $('.second').mouseleave(function(){
+        $(this).css('background-color','#C9341C');
+    });
+     
+    $('.first').mouseenter(function(){
+        $(this).css('background-color','#FF0000').css('color','#FFFFFF');
+    }); 
+    $('.first').mouseleave(function(){
+        $(this).css('background-color','#FFFFFF').css('color','#C9341C');
+    }); 
+    
+    $('.smt').mouseenter(function(){
+        $(this).css('background-color','#ff0000');
+    }); 
+    $('.smt').mouseleave(function(){
+        $(this).css('background-color','#C9341C');
+    });
+    
+      
     $('#status_post').submit(function(){
         var url="status.php";
         var data=$('#status_post').serialize();

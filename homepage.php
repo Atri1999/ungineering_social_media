@@ -100,7 +100,7 @@
                 <div class="div_1 col_1">Connect with us at</div>
                 <div class="div_2 col_1 imag">
                         <a href="www.youtube.com"><img src="img/yt.png"/></a>
-                        <a herf="www.facebook.com"><img src="img/fb.png"/></a>
+                        <a herf="www.facebook.com/ungineering"><img src="img/fb.png"/></a>
                 </div>    
             </div>
             <div class="col fs_2">
