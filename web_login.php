@@ -14,7 +14,7 @@
         <div class="row2"> 
             <div class="one"></div>
             <div class="two">
-                <a href="#">
+                <a href="http://www.ungineering.com/">
                     <div class="logoimg">
                         <img class="ungineering_logo" src="http://www.ungineering.com/static/img/ungineering_logo.svg" alt="ungineering_logo">
                     </div>
@@ -45,8 +45,8 @@
             <div class="maindiv2">
                 <div class="row4"> 
                     <div class="four"></div>
-                    <div class="five"><a href="#"><h2 style="color:black;padding-top:13px;">Existing user</h2></a></div>
-                    <div class="six"><a href=""><h2 class="sixhead" style="color:red;padding-left:70px;padding-top:13px;">New user</h2></a></div>
+                    <div class="five"><a href="web_login.php"><h2 style="color:black;padding-top:13px;">Existing user</h2></a></div>
+                    <div class="six"><a href="web_registration.php"><h2 class="sixhead" style="color:red;padding-left:70px;padding-top:13px;">New user</h2></a></div>
                     <div class="seven"></div>
                 </div>
                 <div class="row5"> 
@@ -54,8 +54,7 @@
                     <div class="nine"><h1>Login into ungineering<br/> account</h1></div>
                     <div class="ten"></div>
                 </div>
-                
-                <form method="post" action="login_submit.php">
+                <form id="login_form" method="post" action="login_submit.php">
                     <div class="row6"> 
                         <!--<div class="row6-1"> </div>-->
                         <div class="row6-2">
@@ -85,12 +84,11 @@
                 
                         <!--<div class="row8-3"></div>-->
                     </div>
-                 </form>
              
                     <div class="row9">
                          <div class="row9-1"> </div>
                         <div class="row9-2">
-                            <a href="#"><h3 class="new_user_login" style="color:red;">New user,create account</h3></a>
+                            <a href="web_registration.php"><h3 class="new_user_login" style="color:red;">New user,create account</h3></a>
                         </div>
                 
                         <div class="row9-3"></div>
@@ -122,5 +120,7 @@
             </div>
             
         </div>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
     </body>
 </html>

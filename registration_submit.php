@@ -1,11 +1,17 @@
 <?php
-    $hostname="127.0.01";
+    $hostname="localhost";
     $username="root";
     $db_password="123456";
-    $db_name="social_media";
-    $conn=mysqli_connect($hostname,$username,$db_password,$db_name);
+    $database="social_media";
+    
+    $response = array();
+    $conn=mysqli_connect($hostname,$username,$db_password,$database);
     if(!$conn){
-        die("connection failed: ". mysqli_connect_error());
+        $response['success'] = false;
+        $response['message'] = "Connection failed: " . mysqli_connect_error();
+        echo json_encode($response);
+        exit();
+        //die("connection failed: ". mysqli_connect_error());
     }
     $name=$_POST['name'];
     $email=$_POST['email'];
@@ -14,25 +20,18 @@
     if($password==$con_pw)
     {
         $sql="INSERT INTO users (name,email,password) VALUES ('$name','$email','$password')";
-        $result=mysqli_query($conn,$sql); 
-        if(!$result){
-            die("Error: ".$sql."<br/>". mysqli_error($conn));
+        //$result=mysqli_query($conn,$sql);
+        if (!mysqli_query($conn, $sql)) {
+        $response['success'] = false;
+        $response['message'] = "Error: " . $sql . "<br>" . mysqli_error($conn);
+        echo json_encode($response);
+        exit();
         }
-        echo "Registration Successful";
-        ?>
-        <p><a href="web_login.php">Click here</a>to continue</p>
-        <?php
     }
-    else{
-        echo "Password and confirm password doesn't match";
-        ?>
-        <p><a href="web_registration.php">Click here</a>to continue</p>
-        <?php   
-    }
+
+    $response['success'] = true;
+    $response['message'] = "Registration successful";
+    echo json_encode($response); 
+        
     mysqli_close($conn);
 ?>
-
-
-
-
-
