@@ -24,6 +24,7 @@
         exit();
     }
 
+<<<<<<< HEAD
     $email = $_POST['email'];
     $pass = $_POST['password'];
 
@@ -33,6 +34,19 @@
             $flag = 1;
             $_SESSION['id']=$row['id'];
             $_SESSION['name']=$row['name'];
+=======
+    $email=$_POST['email'];
+    $password= $_POST['password'];
+    $flag=0;
+    
+    while($row=mysqli_fetch_array($result)){
+        if($row['email']==$email && $row['password']==$password){
+            $flag=1;
+            $_SESSION['id']=$row['id'];
+            $_SESSION['name']=$row['name'];
+            $_SESSION['id']=$row['id'];
+            header('Location:homepage.php');
+>>>>>>> 087587fe590b919ee29ce5ee6dca152fb7625eda
             break;
         }
     }

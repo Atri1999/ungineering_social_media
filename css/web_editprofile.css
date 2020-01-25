@@ -209,21 +209,14 @@ input[type = "text"] {
     font-size: 40px;
    
 }
-.update{
+input[type = "submit"]{
     width: 40%;
     border: solid 1px red;
     background-color:#EF4C4D;
     font-size:40px;
-    
-    
-    
-}
-p10{
     color: white;
-    font-size:30px;
-    padding-left: 65px;
-    padding-bottom: 10px;
 }
+    
     
 
     

@@ -13,6 +13,7 @@ CREATE TABLE users(
     );
     
 
+ 
 CREATE TABLE statuses(
     id INT NOT NULL AUTO_INCREMENT,
     date_ DATE NOT NULL,
@@ -21,4 +22,6 @@ CREATE TABLE statuses(
     user_id INT NOT NULL,
     PRIMARY KEY(id),
     FOREIGN KEY(user_id) REFERENCES users(id)
-);     
+); 
+DESC users;
+DESC statuses;

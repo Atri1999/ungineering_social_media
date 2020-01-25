@@ -24,7 +24,7 @@
                     session_start();
                     if(isset($_SESSION['id']) && $_SESSION['id']){
                     ?>
-                <a href="web_myprofile.html"><span class="dash_brd">My Dashboard</span></a>
+                <a href="web_myprofile.php"><span class="dash_brd">My Dashboard</span></a>
                 <a href="logout.php"><button class="first" >Logout</button></a>
                     <?php
                     } else {
@@ -42,13 +42,12 @@
         <div class="status">
             <div class="st_content">
                 <?php
-                session_start();
                 if(isset($_SESSION['id']) && $_SESSION['id']){
                 ?>
                 <div class="put_status">
                     <div class="instr"> Write Something here</div>
                     <div>
-                        <form method="post" action="status.php">
+                        <form  id="status_post" method="post" action="status.php">
                             <input class="space" name="status" type="text"/><br>
                             <input class="smt" type="submit" name="submit" value="Post"/>
                         </form>                        
@@ -58,6 +57,7 @@
                 <?php
                 }
                 ?> 
+                <div id="show_status"></div>
                 <?php
                     $hostname="127.0.0.1";
                     $username="root";
@@ -108,6 +108,8 @@
                 <div class="div_2 col_2">queries@ungineering.com</div> 
             </div>
         </div>
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/status.js"></script>
     </body>
 </html>            
             
