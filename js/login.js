@@ -42,7 +42,7 @@ var login_success = function (response) {
 
     if (response.success) {
         alert(response.message);
-        window.location.href = "hp_login.php";
+        window.location.href = "homepage.php";
     } else {
         alert(response.message);
     }
