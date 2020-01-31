@@ -93,6 +93,11 @@ body{
     padding-top: 30px;
     padding-left:80px;
 }
+.da{
+    color:rgb(0,0,0);
+    
+    
+}
 .r1_c2_rw3{
     width:100%;
     height: 40%;
@@ -133,6 +138,10 @@ body{
 
 
    
+}
+.lo{
+    color:#EF4C4D;
+
 }
 .r1_c2_rr3{
     width:100%;
@@ -192,7 +201,9 @@ body{
     padding-left:30px;
     
 }
-
+.ed{
+    color:#EF4C4D;
+}
 .c4{
     width:50%;
     float: left;

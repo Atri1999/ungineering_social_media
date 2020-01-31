@@ -27,14 +27,14 @@
                     <div class= "r1_c2_cc1">
                         <div class= "r1_c2_rw1"></div>
                         <div class= "r1_c2_rw2">
-                            <a href = "web_myprofile.php"><b><u> My</u> Dashboard</b></a>
+                            <a href = "web_myprofile.php" style ="text-decoration:none"><span class="da"><b><u> My Dashboard</u></b></span></a>
                         </div>
                         <div class= "r1_c2_rw3"></div>
                     </div>
                     <div class= "r1_c2_cc2">
                         <div class= "r1_c2_rr1"></div>
                         <div class= "r1_c2_rr2">
-                            <div class= "log"><a href = "logout.php"><b>Logout</b></a></div>
+                            <a href = "logout.php" style ="text-decoration:none"><div class= "log"> <span class= "lo"><b>Logout</b></span></div></a>
                         </div>
                         <div class= "r1_c2_rr3"></div>
                     </div>
@@ -53,7 +53,7 @@
                         </div>
                         
                         <div class= "r2_c3_rw3">
-                            <a href = "web_editprofile.php"><u> Edit Profile</u></a>
+                            <a href = "web_editprofile.php" style ="text-decoration:none" ><span class="ed"><u> Edit Profile</u></span></a>
                         </div>
                     </div>
                 </div>
